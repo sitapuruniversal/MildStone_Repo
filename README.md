@@ -1,9 +1,9 @@
 # MildStone_Repo
-#Project 01
+# Project 01
 E Guru Website  
-#Project 02
+# Project 02
 Hospital Landing Web Page
-#Project 03
+# Project 03
 Bike Landing Page
-#Project 04
+# Project 04
 Password Generator Clone
