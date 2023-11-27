@@ -9,3 +9,4 @@ Bike Landing Page
 Pixel Lab Landing Page
 # Project 05
 Password Generator Clone
+Random Password Generator using Tailwind CSS and JavaScript with condition upprcase lowercase number and symbols and with range
