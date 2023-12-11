@@ -1,0 +1,19 @@
+body {
+  background-color: #577591;
+}
+
+h1 {
+  color: #1cb954;
+}
+
+p {
+  color: #f118bbc9;
+  border: 3px solid black;
+  border-width: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: justify;
+  text-decoration: bold;
+  text-overflow: scroll;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .dropdown {
+        position: relative;
+        top: 10px;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 150px;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown-option {
+        padding: 15px;
+        margin-top: 5px;
+        cursor: pointer;
+      }
+
+     span {
+        background-color: #0a0606;
+        color: #f1f1f1;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dropdown">
+      <span>Home</span>
+      <div class="dropdown-content">
+        <div class="dropdown-option">HTML</div>
+        <div class="dropdown-option">CSS</div>
+        <div class="dropdown-option">Python</div>
+        <div class="dropdown-option">JavaScript</div>
+        <div class="dropdown-option">MongoDB</div>
+        <div class="dropdown-option">ReactJS</div>
+        <div class="dropdown-option">Golang</div>
+      </div>
+    </div>
+  </body>
+</html>
