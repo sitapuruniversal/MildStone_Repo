@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600;700&family=Lunasima:wght@400;700&family=Martian+Mono:wght@200;700&family=Montserrat:wght@800&family=Mulish:wght@500;900&family=Poppins:ital,wght@0,700;1,500&family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;1,200&family=Style+Script&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #bdbbbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 400px;
+    height: auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+
+}
+
+.container:hover{
+    border: 2px solid black;
+    transition: all 0.9s;
+}
+
+.login{
+    padding: 50px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family: Lunasima;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+.box-1{
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.box-1 input{
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #333;
+    color: #333;
+    outline: none;
+    background: transparent; 
+    transition: border-color 0.2s; 
+}
+
+.box-1 input:focus{
+    border-color: #1e87f0;
+}
+
+
+.box-1 input:valid{
+    border-color: #1e87f0;
+}
+.box-1 label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    color: #777;
+    pointer-events:  none;
+    transition: all 0.2s; 
+}
+
+.box-1 input:focus~label{
+    border-color: #1e87f0;
+    top: -20px;
+}
+
+
+.box-1 input:valid~label{
+    border-color: #1e87f0;
+    top: -20px;
+}
+
+a {
+    display: inline-block;
+    background-color: #1e87f0;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    font-family: poppins;
+    
+}
+
+.hover-btn:hover{
+    background-color: #fff;
+    border: 2px solid #1e87f0;
+    color: #333;
+    font-weight: 800;
+    transition: all 0.5s;
+}

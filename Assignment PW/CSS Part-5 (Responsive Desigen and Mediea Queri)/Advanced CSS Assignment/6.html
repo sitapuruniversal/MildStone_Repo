@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        .cont{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            height: 100vh;
+            width: 100vw;
+        }
+      body {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      h1 {
+        font-size: 30px;
+    
+      }
+
+      img {
+        width: 500px;
+        height: 400px;
+     
+        border: 2px solid #000;
+      }
+
+      img:hover {
+        filter: grayscale(1);
+        transition: 3s;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HOVER To grayscale The Image.</h1>
+    <div class="cont">
+        <img
+      src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/1432fedb88c0d1cc56f4c496a80f251c.jpg"
+      alt="Bengaluru"
+    />
+    <img
+      src="https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/01/22185942/Bill-Gates.jpg"
+      alt="Bill Gates"
+    />
+    </div>
+  </body>
+</html>

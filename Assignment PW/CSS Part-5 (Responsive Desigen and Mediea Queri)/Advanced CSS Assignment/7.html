@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Animation</title>
+
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+
+      button {
+        padding: 20px 50px;
+        border: 0;
+        background: linear-gradient(
+          90deg,
+          rgba(69, 103, 121, 1) 11%,
+          rgba(55, 51, 194, 1) 100%,
+          rgba(200, 177, 140, 1) 100%
+        );
+        border-radius: 10px;
+        animation: bounce 3s infinite alternate;
+      }
+
+      a {
+        font-weight: bold;
+        color: #fff;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        text-decoration: none;
+      }
+
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(-50%);
+          animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+        50% {
+          transform: translateY(0);
+          animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <button>
+      <a href="https://pwskills.com">Click Me To Visit PW Skills.</a>
+    </button>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient-Background</title>
+    <style>
+        .nav-container{
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: linear-gradient(to bottom, #59a3d4, #3a068e);
+        }
+
+        .logo{
+            font-size: 40px;
+        }
+        .item{
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+                        
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 800;
+            font-style: bold;
+        }
+
+        .container{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-image: linear-gradient(to bottom, #59a3d4, #3a068e);
+        }
+
+        @media screen  {
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="logo"> Logo </div>
+        <nav class="item">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Login</a>
+        </nav>
+    </div>
+    <div class="container">
+        <h1>Welcome to the our Website</h1>
+        <p>Enjoy the stunning blue gradient background</p>
+    </div>
+</body>
+</html>

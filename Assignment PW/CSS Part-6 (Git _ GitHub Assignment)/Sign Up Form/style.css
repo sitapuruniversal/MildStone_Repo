@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 500px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    margin: 15px 0px;    
+    font-family: sans-serif;
+}
+
+.form-group{
+    margin-bottom: 25px;
+    width: 400px;
+
+}
+
+input , label {
+    color: black;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+ 
+
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.form-group input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin-top: 10px;
+}
+
+
+
+
+
